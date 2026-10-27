@@ -24,6 +24,7 @@ java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
 rows = 2, columns = 3
 empty.length = 0
 java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+java.lang.NullPointerException: Cannot read the array length because "rowsNotAssigned[0]" is null
 == Ch6Iterate
 intMatrix[0][0] = 2
 intMatrix[0][1] = 3

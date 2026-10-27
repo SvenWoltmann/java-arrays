@@ -31,7 +31,7 @@
          unit-test in them. -->
     <sonar.coverage.exclusions>**/*.java</sonar.coverage.exclusions>
 
-    <sonar.issue.ignore.multicriteria>e1,e2,e3,e4,e5,e6,e7</sonar.issue.ignore.multicriteria>
+    <sonar.issue.ignore.multicriteria>e1,e2,e3,e4,e5,e6,e7,e8,e9</sonar.issue.ignore.multicriteria>
     <!-- The examples print their results; System.out is the program's output, not logging. -->
     <sonar.issue.ignore.multicriteria.e1.ruleKey>java:S106</sonar.issue.ignore.multicriteria.e1.ruleKey>
     <sonar.issue.ignore.multicriteria.e1.resourceKey>**/*.java</sonar.issue.ignore.multicriteria.e1.resourceKey>
@@ -59,6 +59,12 @@
          a constant would make each listing depend on a definition outside it. -->
     <sonar.issue.ignore.multicriteria.e7.ruleKey>java:S1192</sonar.issue.ignore.multicriteria.e7.ruleKey>
     <sonar.issue.ignore.multicriteria.e7.resourceKey>**/twodimensional/Ch8Fill.java</sonar.issue.ignore.multicriteria.e7.resourceKey>
+    <!-- twodimensional.Ch5Length reads the length of a row that is null on purpose and catches the
+         NullPointerException to print it: the exception is why the article checks row 0 first. -->
+    <sonar.issue.ignore.multicriteria.e8.ruleKey>java:S2259</sonar.issue.ignore.multicriteria.e8.ruleKey>
+    <sonar.issue.ignore.multicriteria.e8.resourceKey>**/twodimensional/Ch5Length.java</sonar.issue.ignore.multicriteria.e8.resourceKey>
+    <sonar.issue.ignore.multicriteria.e9.ruleKey>java:S1696</sonar.issue.ignore.multicriteria.e9.ruleKey>
+    <sonar.issue.ignore.multicriteria.e9.resourceKey>**/twodimensional/Ch5Length.java</sonar.issue.ignore.multicriteria.e9.resourceKey>
   </properties>
 
   <dependencies>

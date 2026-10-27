@@ -27,7 +27,7 @@ java -cp target/classes eu.happycoders.<package>.<ClassName>
 * `Ch2Declare` – the brackets at the type, C-style at the name, or mixed
 * `Ch3Initialize` – with values, with default values (`new int[2][3]`), and row by row (`new int[2][]`)
 * `Ch4Access` – reading and writing elements, a row as an array, and the `ArrayIndexOutOfBoundsException` for a wrong row or column index
-* `Ch5Length` – the number of rows and columns, and the empty array
+* `Ch5Length` – the number of rows and columns, the empty array, and a row 0 that is `null`
 * `Ch6Iterate` – nested `for` loops, for-each loops, and a stream with `flatMapToInt()`
 * `Ch7Print` – `println()`, `Arrays.toString()` and `Arrays.deepToString()`, one line per row, and aligned columns with `printf()`
 * `Ch8Fill` – `Arrays.setAll()` and `Arrays.fill()` per row, and the pitfall of `Arrays.fill()` with one row object for all rows
