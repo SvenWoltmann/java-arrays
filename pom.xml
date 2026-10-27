@@ -31,10 +31,34 @@
          unit-test in them. -->
     <sonar.coverage.exclusions>**/*.java</sonar.coverage.exclusions>
 
-    <sonar.issue.ignore.multicriteria>e1</sonar.issue.ignore.multicriteria>
+    <sonar.issue.ignore.multicriteria>e1,e2,e3,e4,e5,e6,e7</sonar.issue.ignore.multicriteria>
     <!-- The examples print their results; System.out is the program's output, not logging. -->
     <sonar.issue.ignore.multicriteria.e1.ruleKey>java:S106</sonar.issue.ignore.multicriteria.e1.ruleKey>
     <sonar.issue.ignore.multicriteria.e1.resourceKey>**/*.java</sonar.issue.ignore.multicriteria.e1.resourceKey>
+    <!-- twodimensional.Ch4Access reads one column and one row past the end on purpose: the
+         ArrayIndexOutOfBoundsException for each is what the article shows. -->
+    <sonar.issue.ignore.multicriteria.e2.ruleKey>javabugs:S6466</sonar.issue.ignore.multicriteria.e2.ruleKey>
+    <sonar.issue.ignore.multicriteria.e2.resourceKey>**/twodimensional/Ch4Access.java</sonar.issue.ignore.multicriteria.e2.resourceKey>
+    <!-- twodimensional.Ch5Length reads row 0 of an array without rows on purpose: the exception is
+         why the article checks the number of rows first. -->
+    <sonar.issue.ignore.multicriteria.e3.ruleKey>javabugs:S6466</sonar.issue.ignore.multicriteria.e3.ruleKey>
+    <sonar.issue.ignore.multicriteria.e3.resourceKey>**/twodimensional/Ch5Length.java</sonar.issue.ignore.multicriteria.e3.resourceKey>
+    <!-- twodimensional.Ch10Copy compares two arrays with equals() on purpose: it prints false for
+         equal contents, next to Arrays.equals() and Arrays.deepEquals(). -->
+    <sonar.issue.ignore.multicriteria.e4.ruleKey>java:S2159</sonar.issue.ignore.multicriteria.e4.ruleKey>
+    <sonar.issue.ignore.multicriteria.e4.resourceKey>**/twodimensional/Ch10Copy.java</sonar.issue.ignore.multicriteria.e4.resourceKey>
+    <!-- twodimensional.Ch2Declare shows the C-style brackets after the variable name, which the
+         article introduces before recommending the brackets at the type. -->
+    <sonar.issue.ignore.multicriteria.e5.ruleKey>java:S1197</sonar.issue.ignore.multicriteria.e5.ruleKey>
+    <sonar.issue.ignore.multicriteria.e5.resourceKey>**/twodimensional/Ch2Declare.java</sonar.issue.ignore.multicriteria.e5.resourceKey>
+    <!-- twodimensional.Ch3Initialize shows the initializer with "new int[][]" next to the short
+         form: the article needs it for var and for a separate assignment. -->
+    <sonar.issue.ignore.multicriteria.e6.ruleKey>java:S9439</sonar.issue.ignore.multicriteria.e6.ruleKey>
+    <sonar.issue.ignore.multicriteria.e6.resourceKey>**/twodimensional/Ch3Initialize.java</sonar.issue.ignore.multicriteria.e6.resourceKey>
+    <!-- twodimensional.Ch8Fill prints "matrix = " after each step, as the article's listings do;
+         a constant would make each listing depend on a definition outside it. -->
+    <sonar.issue.ignore.multicriteria.e7.ruleKey>java:S1192</sonar.issue.ignore.multicriteria.e7.ruleKey>
+    <sonar.issue.ignore.multicriteria.e7.resourceKey>**/twodimensional/Ch8Fill.java</sonar.issue.ignore.multicriteria.e7.resourceKey>
   </properties>
 
   <dependencies>
