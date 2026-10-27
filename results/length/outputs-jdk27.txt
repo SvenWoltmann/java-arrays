@@ -1,0 +1,64 @@
+== Ch1GetLength
+numberOfNames = 4
+Array.getLength(array) = 4
+height = 2, width = 3
+IntSummaryStatistics{count=2, sum=8, min=3, average=4.000000, max=5}
+IntSummaryStatistics{count=2, sum=8, min=3, average=4,000000, max=5}
+== Ch2SetLength
+4 [jujube, apple, boysenberry, cherry]
+4 [null, null, null, null]
+[[2, 3, 6], [4, 5, 1, 9, 7]]
+[[0, 0, 0], [0, 0, 0]]
+== Ch3MemoryLayout
+# WARNING: Unable to attach Serviceability Agent. HotSpot Serviceability Agent attach skipped due to jol.skipHotspotSAAttach flag.
+[I object internals:
+OFF  SZ   TYPE DESCRIPTION               VALUE
+  0   8        (object header: mark)     0x0017d80000000009 (Lilliput)
+  8   4        (array length)            5
+ 12  20    int [I.<elements>             N/A
+Instance size: 32 bytes
+Space losses: 0 bytes internal + 0 bytes external = 0 bytes total
+
+short[5]: 24 bytes
+byte[5]: 24 bytes
+long[3]: 40 bytes
+long[5]: 56 bytes
+String[4]: 32 bytes
+[[I@5b87ed94d footprint:
+     COUNT       AVG       SUM   DESCRIPTION
+         2        24        48   [I
+         1        24        24   [[I
+         3                  72   (total)
+
+
+== Ch3MemoryLayout with -XX:-UseCompactObjectHeaders
+# WARNING: Unable to attach Serviceability Agent. HotSpot Serviceability Agent attach skipped due to jol.skipHotspotSAAttach flag.
+[I object internals:
+OFF  SZ   TYPE DESCRIPTION               VALUE
+  0   8        (object header: mark)     0x0000000000000009 (non-biasable; age: 1)
+  8   4        (object header: class)    0x0017bfa8
+ 12   4        (array length)            5
+ 16  20    int [I.<elements>             N/A
+ 36   4        (object alignment gap)    
+Instance size: 40 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+short[5]: 32 bytes
+byte[5]: 24 bytes
+long[3]: 40 bytes
+long[5]: 56 bytes
+String[4]: 32 bytes
+[[I@5b87ed94d footprint:
+     COUNT       AVG       SUM   DESCRIPTION
+         2        32        64   [I
+         1        24        24   [[I
+         3                  88   (total)
+
+
+== Ch4MaxArraySize (-Xmx20g)
+new byte[2147483647]: java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+new byte[2147483646]: java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+new byte[2147483645] created: byte[]
+new long[2147483647]: java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+new long[2147483646]: java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+new long[2147483645] created: long[]
