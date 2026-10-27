@@ -1,0 +1,681 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# JMH version: 1.37
+# VM version: JDK 27, OpenJDK 64-Bit Server VM, 27+35-2325
+# VM invoker: /Users/sven/.sdkman/candidates/java/27-open/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: eu.happycoders.twodimensional.benchmark.TraversalBenchmark.columnMajor2d
+# Parameters: (size = 64)
+
+# Run progress: 0,00% complete, ETA 00:04:00
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 1,080 us/op
+# Warmup Iteration   2: 1,091 us/op
+# Warmup Iteration   3: 1,065 us/op
+# Warmup Iteration   4: 1,068 us/op
+# Warmup Iteration   5: 1,071 us/op
+Iteration   1: 1,064 us/op
+Iteration   2: 1,080 us/op
+Iteration   3: 1,064 us/op
+Iteration   4: 1,078 us/op
+Iteration   5: 1,073 us/op
+
+# Run progress: 4,17% complete, ETA 00:03:54
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 1,101 us/op
+# Warmup Iteration   2: 1,090 us/op
+# Warmup Iteration   3: 1,087 us/op
+# Warmup Iteration   4: 1,086 us/op
+# Warmup Iteration   5: 1,070 us/op
+Iteration   1: 1,087 us/op
+Iteration   2: 1,095 us/op
+Iteration   3: 1,081 us/op
+Iteration   4: 1,091 us/op
+Iteration   5: 1,074 us/op
+
+
+Result "eu.happycoders.twodimensional.benchmark.TraversalBenchmark.columnMajor2d":
+  1,079 ±(99.9%) 0,016 us/op [Average]
+  (min, avg, max) = (1,064, 1,079, 1,095), stdev = 0,011
+  CI (99.9%): [1,063, 1,095] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 27, OpenJDK 64-Bit Server VM, 27+35-2325
+# VM invoker: /Users/sven/.sdkman/candidates/java/27-open/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: eu.happycoders.twodimensional.benchmark.TraversalBenchmark.columnMajor2d
+# Parameters: (size = 1024)
+
+# Run progress: 8,33% complete, ETA 00:03:44
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 557,996 us/op
+# Warmup Iteration   2: 550,416 us/op
+# Warmup Iteration   3: 554,396 us/op
+# Warmup Iteration   4: 552,976 us/op
+# Warmup Iteration   5: 548,969 us/op
+Iteration   1: 559,236 us/op
+Iteration   2: 545,279 us/op
+Iteration   3: 559,902 us/op
+Iteration   4: 555,937 us/op
+Iteration   5: 554,998 us/op
+
+# Run progress: 12,50% complete, ETA 00:03:33
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 498,911 us/op
+# Warmup Iteration   2: 496,494 us/op
+# Warmup Iteration   3: 498,529 us/op
+# Warmup Iteration   4: 492,170 us/op
+# Warmup Iteration   5: 498,771 us/op
+Iteration   1: 493,916 us/op
+Iteration   2: 497,691 us/op
+Iteration   3: 500,658 us/op
+Iteration   4: 494,220 us/op
+Iteration   5: 500,849 us/op
+
+
+Result "eu.happycoders.twodimensional.benchmark.TraversalBenchmark.columnMajor2d":
+  526,269 ±(99.9%) 46,401 us/op [Average]
+  (min, avg, max) = (493,916, 526,269, 559,902), stdev = 30,691
+  CI (99.9%): [479,868, 572,670] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 27, OpenJDK 64-Bit Server VM, 27+35-2325
+# VM invoker: /Users/sven/.sdkman/candidates/java/27-open/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: eu.happycoders.twodimensional.benchmark.TraversalBenchmark.columnMajor2d
+# Parameters: (size = 4096)
+
+# Run progress: 16,67% complete, ETA 00:03:23
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 27453,047 us/op
+# Warmup Iteration   2: 28181,622 us/op
+# Warmup Iteration   3: 27470,931 us/op
+# Warmup Iteration   4: 28024,153 us/op
+# Warmup Iteration   5: 27893,923 us/op
+Iteration   1: 27923,436 us/op
+Iteration   2: 28178,869 us/op
+Iteration   3: 27363,548 us/op
+Iteration   4: 28077,466 us/op
+Iteration   5: 27725,488 us/op
+
+# Run progress: 20,83% complete, ETA 00:03:14
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 27684,003 us/op
+# Warmup Iteration   2: 27265,144 us/op
+# Warmup Iteration   3: 27118,462 us/op
+# Warmup Iteration   4: 27878,030 us/op
+# Warmup Iteration   5: 26959,850 us/op
+Iteration   1: 27622,779 us/op
+Iteration   2: 26950,919 us/op
+Iteration   3: 27526,298 us/op
+Iteration   4: 27303,530 us/op
+Iteration   5: 27268,249 us/op
+
+
+Result "eu.happycoders.twodimensional.benchmark.TraversalBenchmark.columnMajor2d":
+  27594,058 ±(99.9%) 588,609 us/op [Average]
+  (min, avg, max) = (26950,919, 27594,058, 28178,869), stdev = 389,328
+  CI (99.9%): [27005,450, 28182,667] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 27, OpenJDK 64-Bit Server VM, 27+35-2325
+# VM invoker: /Users/sven/.sdkman/candidates/java/27-open/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: eu.happycoders.twodimensional.benchmark.TraversalBenchmark.columnMajorFlat
+# Parameters: (size = 64)
+
+# Run progress: 25,00% complete, ETA 00:03:04
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 1,507 us/op
+# Warmup Iteration   2: 1,483 us/op
+# Warmup Iteration   3: 1,491 us/op
+# Warmup Iteration   4: 1,473 us/op
+# Warmup Iteration   5: 1,499 us/op
+Iteration   1: 1,487 us/op
+Iteration   2: 1,482 us/op
+Iteration   3: 1,496 us/op
+Iteration   4: 1,476 us/op
+Iteration   5: 1,499 us/op
+
+# Run progress: 29,17% complete, ETA 00:02:54
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 1,492 us/op
+# Warmup Iteration   2: 1,509 us/op
+# Warmup Iteration   3: 1,489 us/op
+# Warmup Iteration   4: 1,480 us/op
+# Warmup Iteration   5: 1,511 us/op
+Iteration   1: 1,481 us/op
+Iteration   2: 1,498 us/op
+Iteration   3: 1,486 us/op
+Iteration   4: 1,492 us/op
+Iteration   5: 1,500 us/op
+
+
+Result "eu.happycoders.twodimensional.benchmark.TraversalBenchmark.columnMajorFlat":
+  1,490 ±(99.9%) 0,013 us/op [Average]
+  (min, avg, max) = (1,476, 1,490, 1,500), stdev = 0,009
+  CI (99.9%): [1,477, 1,502] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 27, OpenJDK 64-Bit Server VM, 27+35-2325
+# VM invoker: /Users/sven/.sdkman/candidates/java/27-open/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: eu.happycoders.twodimensional.benchmark.TraversalBenchmark.columnMajorFlat
+# Parameters: (size = 1024)
+
+# Run progress: 33,33% complete, ETA 00:02:43
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 1013,510 us/op
+# Warmup Iteration   2: 1024,118 us/op
+# Warmup Iteration   3: 999,088 us/op
+# Warmup Iteration   4: 1029,729 us/op
+# Warmup Iteration   5: 1009,910 us/op
+Iteration   1: 1018,434 us/op
+Iteration   2: 1015,175 us/op
+Iteration   3: 1002,927 us/op
+Iteration   4: 1025,210 us/op
+Iteration   5: 997,793 us/op
+
+# Run progress: 37,50% complete, ETA 00:02:33
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 1041,589 us/op
+# Warmup Iteration   2: 1007,300 us/op
+# Warmup Iteration   3: 1014,516 us/op
+# Warmup Iteration   4: 1025,416 us/op
+# Warmup Iteration   5: 998,693 us/op
+Iteration   1: 1025,013 us/op
+Iteration   2: 1002,628 us/op
+Iteration   3: 1025,728 us/op
+Iteration   4: 1015,471 us/op
+Iteration   5: 1007,871 us/op
+
+
+Result "eu.happycoders.twodimensional.benchmark.TraversalBenchmark.columnMajorFlat":
+  1013,625 ±(99.9%) 15,602 us/op [Average]
+  (min, avg, max) = (997,793, 1013,625, 1025,728), stdev = 10,320
+  CI (99.9%): [998,023, 1029,227] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 27, OpenJDK 64-Bit Server VM, 27+35-2325
+# VM invoker: /Users/sven/.sdkman/candidates/java/27-open/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: eu.happycoders.twodimensional.benchmark.TraversalBenchmark.columnMajorFlat
+# Parameters: (size = 4096)
+
+# Run progress: 41,67% complete, ETA 00:02:23
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 52862,163 us/op
+# Warmup Iteration   2: 50188,980 us/op
+# Warmup Iteration   3: 53004,217 us/op
+# Warmup Iteration   4: 50230,363 us/op
+# Warmup Iteration   5: 53043,927 us/op
+Iteration   1: 50464,096 us/op
+Iteration   2: 51751,446 us/op
+Iteration   3: 51782,860 us/op
+Iteration   4: 50436,944 us/op
+Iteration   5: 52981,479 us/op
+
+# Run progress: 45,83% complete, ETA 00:02:13
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 51080,967 us/op
+# Warmup Iteration   2: 53396,197 us/op
+# Warmup Iteration   3: 49730,831 us/op
+# Warmup Iteration   4: 52885,349 us/op
+# Warmup Iteration   5: 51053,494 us/op
+Iteration   1: 51538,665 us/op
+Iteration   2: 52409,400 us/op
+Iteration   3: 50266,798 us/op
+Iteration   4: 52950,445 us/op
+Iteration   5: 50000,988 us/op
+
+
+Result "eu.happycoders.twodimensional.benchmark.TraversalBenchmark.columnMajorFlat":
+  51458,312 ±(99.9%) 1688,349 us/op [Average]
+  (min, avg, max) = (50000,988, 51458,312, 52981,479), stdev = 1116,738
+  CI (99.9%): [49769,963, 53146,661] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 27, OpenJDK 64-Bit Server VM, 27+35-2325
+# VM invoker: /Users/sven/.sdkman/candidates/java/27-open/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: eu.happycoders.twodimensional.benchmark.TraversalBenchmark.rowMajor2d
+# Parameters: (size = 64)
+
+# Run progress: 50,00% complete, ETA 00:02:03
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 0,323 us/op
+# Warmup Iteration   2: 0,325 us/op
+# Warmup Iteration   3: 0,321 us/op
+# Warmup Iteration   4: 0,323 us/op
+# Warmup Iteration   5: 0,324 us/op
+Iteration   1: 0,325 us/op
+Iteration   2: 0,323 us/op
+Iteration   3: 0,323 us/op
+Iteration   4: 0,324 us/op
+Iteration   5: 0,325 us/op
+
+# Run progress: 54,17% complete, ETA 00:01:53
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 0,327 us/op
+# Warmup Iteration   2: 0,324 us/op
+# Warmup Iteration   3: 0,325 us/op
+# Warmup Iteration   4: 0,322 us/op
+# Warmup Iteration   5: 0,321 us/op
+Iteration   1: 0,322 us/op
+Iteration   2: 0,320 us/op
+Iteration   3: 0,323 us/op
+Iteration   4: 0,317 us/op
+Iteration   5: 0,321 us/op
+
+
+Result "eu.happycoders.twodimensional.benchmark.TraversalBenchmark.rowMajor2d":
+  0,322 ±(99.9%) 0,004 us/op [Average]
+  (min, avg, max) = (0,317, 0,322, 0,325), stdev = 0,002
+  CI (99.9%): [0,319, 0,326] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 27, OpenJDK 64-Bit Server VM, 27+35-2325
+# VM invoker: /Users/sven/.sdkman/candidates/java/27-open/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: eu.happycoders.twodimensional.benchmark.TraversalBenchmark.rowMajor2d
+# Parameters: (size = 1024)
+
+# Run progress: 58,33% complete, ETA 00:01:42
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 183,121 us/op
+# Warmup Iteration   2: 185,821 us/op
+# Warmup Iteration   3: 183,314 us/op
+# Warmup Iteration   4: 183,474 us/op
+# Warmup Iteration   5: 185,586 us/op
+Iteration   1: 182,303 us/op
+Iteration   2: 186,074 us/op
+Iteration   3: 182,603 us/op
+Iteration   4: 184,194 us/op
+Iteration   5: 185,554 us/op
+
+# Run progress: 62,50% complete, ETA 00:01:32
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 184,330 us/op
+# Warmup Iteration   2: 185,929 us/op
+# Warmup Iteration   3: 181,688 us/op
+# Warmup Iteration   4: 185,478 us/op
+# Warmup Iteration   5: 182,902 us/op
+Iteration   1: 184,999 us/op
+Iteration   2: 185,425 us/op
+Iteration   3: 182,621 us/op
+Iteration   4: 185,478 us/op
+Iteration   5: 184,131 us/op
+
+
+Result "eu.happycoders.twodimensional.benchmark.TraversalBenchmark.rowMajor2d":
+  184,338 ±(99.9%) 2,113 us/op [Average]
+  (min, avg, max) = (182,303, 184,338, 186,074), stdev = 1,397
+  CI (99.9%): [182,226, 186,451] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 27, OpenJDK 64-Bit Server VM, 27+35-2325
+# VM invoker: /Users/sven/.sdkman/candidates/java/27-open/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: eu.happycoders.twodimensional.benchmark.TraversalBenchmark.rowMajor2d
+# Parameters: (size = 4096)
+
+# Run progress: 66,67% complete, ETA 00:01:22
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 3830,167 us/op
+# Warmup Iteration   2: 3850,642 us/op
+# Warmup Iteration   3: 3933,951 us/op
+# Warmup Iteration   4: 3913,680 us/op
+# Warmup Iteration   5: 3875,826 us/op
+Iteration   1: 4250,351 us/op
+Iteration   2: 4355,676 us/op
+Iteration   3: 4242,453 us/op
+Iteration   4: 3796,018 us/op
+Iteration   5: 4059,155 us/op
+
+# Run progress: 70,83% complete, ETA 00:01:11
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 4191,456 us/op
+# Warmup Iteration   2: 3915,843 us/op
+# Warmup Iteration   3: 3954,806 us/op
+# Warmup Iteration   4: 3824,028 us/op
+# Warmup Iteration   5: 3893,823 us/op
+Iteration   1: 3780,888 us/op
+Iteration   2: 3868,556 us/op
+Iteration   3: 3882,794 us/op
+Iteration   4: 3776,369 us/op
+Iteration   5: 3902,756 us/op
+
+
+Result "eu.happycoders.twodimensional.benchmark.TraversalBenchmark.rowMajor2d":
+  3991,502 ±(99.9%) 330,787 us/op [Average]
+  (min, avg, max) = (3776,369, 3991,502, 4355,676), stdev = 218,795
+  CI (99.9%): [3660,714, 4322,289] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 27, OpenJDK 64-Bit Server VM, 27+35-2325
+# VM invoker: /Users/sven/.sdkman/candidates/java/27-open/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: eu.happycoders.twodimensional.benchmark.TraversalBenchmark.rowMajorFlat
+# Parameters: (size = 64)
+
+# Run progress: 75,00% complete, ETA 00:01:01
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 0,354 us/op
+# Warmup Iteration   2: 0,346 us/op
+# Warmup Iteration   3: 0,348 us/op
+# Warmup Iteration   4: 0,350 us/op
+# Warmup Iteration   5: 0,351 us/op
+Iteration   1: 0,350 us/op
+Iteration   2: 0,351 us/op
+Iteration   3: 0,349 us/op
+Iteration   4: 0,354 us/op
+Iteration   5: 0,358 us/op
+
+# Run progress: 79,17% complete, ETA 00:00:51
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 0,352 us/op
+# Warmup Iteration   2: 0,353 us/op
+# Warmup Iteration   3: 0,358 us/op
+# Warmup Iteration   4: 0,358 us/op
+# Warmup Iteration   5: 0,355 us/op
+Iteration   1: 0,359 us/op
+Iteration   2: 0,358 us/op
+Iteration   3: 0,354 us/op
+Iteration   4: 0,356 us/op
+Iteration   5: 0,353 us/op
+
+
+Result "eu.happycoders.twodimensional.benchmark.TraversalBenchmark.rowMajorFlat":
+  0,354 ±(99.9%) 0,005 us/op [Average]
+  (min, avg, max) = (0,349, 0,354, 0,359), stdev = 0,003
+  CI (99.9%): [0,349, 0,359] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 27, OpenJDK 64-Bit Server VM, 27+35-2325
+# VM invoker: /Users/sven/.sdkman/candidates/java/27-open/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: eu.happycoders.twodimensional.benchmark.TraversalBenchmark.rowMajorFlat
+# Parameters: (size = 1024)
+
+# Run progress: 83,33% complete, ETA 00:00:41
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 186,262 us/op
+# Warmup Iteration   2: 181,204 us/op
+# Warmup Iteration   3: 183,703 us/op
+# Warmup Iteration   4: 182,440 us/op
+# Warmup Iteration   5: 182,473 us/op
+Iteration   1: 184,414 us/op
+Iteration   2: 179,376 us/op
+Iteration   3: 182,048 us/op
+Iteration   4: 181,242 us/op
+Iteration   5: 182,016 us/op
+
+# Run progress: 87,50% complete, ETA 00:00:30
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 182,249 us/op
+# Warmup Iteration   2: 180,166 us/op
+# Warmup Iteration   3: 182,128 us/op
+# Warmup Iteration   4: 178,995 us/op
+# Warmup Iteration   5: 181,611 us/op
+Iteration   1: 179,096 us/op
+Iteration   2: 180,440 us/op
+Iteration   3: 179,881 us/op
+Iteration   4: 179,721 us/op
+Iteration   5: 181,843 us/op
+
+
+Result "eu.happycoders.twodimensional.benchmark.TraversalBenchmark.rowMajorFlat":
+  181,008 ±(99.9%) 2,470 us/op [Average]
+  (min, avg, max) = (179,096, 181,008, 184,414), stdev = 1,634
+  CI (99.9%): [178,538, 183,478] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 27, OpenJDK 64-Bit Server VM, 27+35-2325
+# VM invoker: /Users/sven/.sdkman/candidates/java/27-open/bin/java
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: eu.happycoders.twodimensional.benchmark.TraversalBenchmark.rowMajorFlat
+# Parameters: (size = 4096)
+
+# Run progress: 91,67% complete, ETA 00:00:20
+# Fork: 1 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 3556,621 us/op
+# Warmup Iteration   2: 3587,141 us/op
+# Warmup Iteration   3: 3520,846 us/op
+# Warmup Iteration   4: 3602,803 us/op
+# Warmup Iteration   5: 3555,883 us/op
+Iteration   1: 3626,068 us/op
+Iteration   2: 3988,458 us/op
+Iteration   3: 3548,017 us/op
+Iteration   4: 3767,995 us/op
+Iteration   5: 3575,334 us/op
+
+# Run progress: 95,83% complete, ETA 00:00:10
+# Fork: 2 of 2
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.openjdk.jmh.util.Utils (file:/Users/sven/Projects/HappyCoders/git-articles/java-arrays/target/benchmarks.jar)
+WARNING: Please consider reporting this to the maintainers of class org.openjdk.jmh.util.Utils
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+# Warmup Iteration   1: 3620,521 us/op
+# Warmup Iteration   2: 3546,889 us/op
+# Warmup Iteration   3: 3542,852 us/op
+# Warmup Iteration   4: 3598,402 us/op
+# Warmup Iteration   5: 3539,445 us/op
+Iteration   1: 3594,472 us/op
+Iteration   2: 3533,302 us/op
+Iteration   3: 3564,458 us/op
+Iteration   4: 3582,996 us/op
+Iteration   5: 3567,487 us/op
+
+
+Result "eu.happycoders.twodimensional.benchmark.TraversalBenchmark.rowMajorFlat":
+  3634,859 ±(99.9%) 212,647 us/op [Average]
+  (min, avg, max) = (3533,302, 3634,859, 3988,458), stdev = 140,653
+  CI (99.9%): [3422,212, 3847,506] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:04:06
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                           (size)  Mode  Cnt      Score      Error  Units
+TraversalBenchmark.columnMajor2d        64  avgt   10      1,079 ±    0,016  us/op
+TraversalBenchmark.columnMajor2d      1024  avgt   10    526,269 ±   46,401  us/op
+TraversalBenchmark.columnMajor2d      4096  avgt   10  27594,058 ±  588,609  us/op
+TraversalBenchmark.columnMajorFlat      64  avgt   10      1,490 ±    0,013  us/op
+TraversalBenchmark.columnMajorFlat    1024  avgt   10   1013,625 ±   15,602  us/op
+TraversalBenchmark.columnMajorFlat    4096  avgt   10  51458,312 ± 1688,349  us/op
+TraversalBenchmark.rowMajor2d           64  avgt   10      0,322 ±    0,004  us/op
+TraversalBenchmark.rowMajor2d         1024  avgt   10    184,338 ±    2,113  us/op
+TraversalBenchmark.rowMajor2d         4096  avgt   10   3991,502 ±  330,787  us/op
+TraversalBenchmark.rowMajorFlat         64  avgt   10      0,354 ±    0,005  us/op
+TraversalBenchmark.rowMajorFlat       1024  avgt   10    181,008 ±    2,470  us/op
+TraversalBenchmark.rowMajorFlat       4096  avgt   10   3634,859 ±  212,647  us/op
+
+Benchmark result is saved to results/twodimensional/apple-m5-pro/traversal-jdk27.json
