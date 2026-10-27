@@ -25,7 +25,7 @@ public class Ch8Fill {
     matrix[1][1] = 99;
     System.out.println("matrix = " + Arrays.deepToString(matrix));
 
-    Arrays.setAll(matrix, ignored -> new int[] {1, 2, 3, 4});
+    Arrays.setAll(matrix, _ -> new int[] {1, 2, 3, 4});
     matrix[1][1] = 99;
     System.out.println("matrix = " + Arrays.deepToString(matrix));
   }
