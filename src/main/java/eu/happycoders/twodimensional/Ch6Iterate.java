@@ -23,7 +23,7 @@ public class Ch6Iterate {
     System.out.println("sum = " + sum);
 
     int streamSum = Arrays.stream(intMatrix).flatMapToInt(Arrays::stream).sum();
-    System.out.println("streamSum = " + streamSum);
+    System.out.println("sum = " + streamSum);
 
     int max = Arrays.stream(intMatrix).flatMapToInt(Arrays::stream).max().orElseThrow();
     System.out.println("max = " + max);

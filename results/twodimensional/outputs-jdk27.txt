@@ -33,7 +33,7 @@ intMatrix[1][0] = 4
 intMatrix[1][1] = 5
 intMatrix[1][2] = 1
 sum = 21
-streamSum = 21
+sum = 21
 max = 6
 == Ch7Print
 [[I@2b2fa4f7
@@ -63,22 +63,22 @@ original = [[99, 3, 6], [4, 5, 1]]
 deepCopy = [[42, 3, 6], [4, 5, 1]]
 original   = [[99, 3, 6], [4, 5, 1]]
 streamCopy = [[99, 3, 6], [4, 42, 1]]
-a.equals(b)           = false
-Arrays.equals(a, b)   = false
-deepEquals(a, b)      = true
-Arrays.hashCode(a)    = -410441622
-Arrays.hashCode(b)    = 2016874937
-deepHashCode(a)       = 32833
-deepHashCode(b)       = 32833
+Arrays.equals(a, b)     = false
+Arrays.deepEquals(a, b) = true
+a.equals(b)             = false
+Arrays.hashCode(a)      = -410441622
+Arrays.hashCode(b)      = 2016874937
+Arrays.deepHashCode(a)  = 32833
+Arrays.deepHashCode(b)  = 32833
 == Ch11Sort
-rows sorted: [[2, 3, 6], [1, 4, 5]]
-by x: [[1, 9], [2, 4], [3, 7]]
-by y, descending: [[1, 9], [3, 7], [2, 4]]
+[[2, 3, 6], [1, 4, 5]]
+[[1, 9], [2, 4], [3, 7]]
+[[1, 9], [3, 7], [2, 4]]
 == Ch12Multidimensional
-cube = [[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]], [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 42]]]
-cube.length = 2, cube[0].length = 3, cube[0][0].length = 4
+[[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]], [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 42]]]
+2 x 3 x 4
 literal[1][0][1] = 6
-viaReflection = [[0, 0, 0], [0, 0, 0]]
+[[0, 0, 0], [0, 0, 0]]
 == Ch13Flat
 flat = [2, 3, 6, 4, 5, 1, 9, 7, 8, 0, 3, 2]
 matrix[1][2] = 9

@@ -29,12 +29,14 @@ public class Ch10Copy {
 
     int[][] a = {{1, 2}, {3, 4}};
     int[][] b = {{1, 2}, {3, 4}};
-    System.out.println("a.equals(b)           = " + a.equals(b));
-    System.out.println("Arrays.equals(a, b)   = " + Arrays.equals(a, b));
-    System.out.println("deepEquals(a, b)      = " + Arrays.deepEquals(a, b));
-    System.out.println("Arrays.hashCode(a)    = " + Arrays.hashCode(a));
-    System.out.println("Arrays.hashCode(b)    = " + Arrays.hashCode(b));
-    System.out.println("deepHashCode(a)       = " + Arrays.deepHashCode(a));
-    System.out.println("deepHashCode(b)       = " + Arrays.deepHashCode(b));
+    System.out.println("Arrays.equals(a, b)     = " + Arrays.equals(a, b));
+    System.out.println("Arrays.deepEquals(a, b) = " + Arrays.deepEquals(a, b));
+
+    // beyond the article: equals() on arrays, and the two hash codes
+    System.out.println("a.equals(b)             = " + a.equals(b));
+    System.out.println("Arrays.hashCode(a)      = " + Arrays.hashCode(a));
+    System.out.println("Arrays.hashCode(b)      = " + Arrays.hashCode(b));
+    System.out.println("Arrays.deepHashCode(a)  = " + Arrays.deepHashCode(a));
+    System.out.println("Arrays.deepHashCode(b)  = " + Arrays.deepHashCode(b));
   }
 }

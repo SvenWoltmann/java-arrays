@@ -11,13 +11,13 @@ public class Ch11Sort {
     for (int[] row : intMatrix) {
       Arrays.sort(row);
     }
-    System.out.println("rows sorted: " + Arrays.deepToString(intMatrix));
+    System.out.println(Arrays.deepToString(intMatrix));
 
     int[][] points = {{3, 7}, {1, 9}, {2, 4}};
     Arrays.sort(points, Comparator.comparingInt(point -> point[0]));
-    System.out.println("by x: " + Arrays.deepToString(points));
+    System.out.println(Arrays.deepToString(points));
 
     Arrays.sort(points, Comparator.comparingInt((int[] point) -> point[1]).reversed());
-    System.out.println("by y, descending: " + Arrays.deepToString(points));
+    System.out.println(Arrays.deepToString(points));
   }
 }
