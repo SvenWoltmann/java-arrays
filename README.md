@@ -13,7 +13,7 @@ The code of the HappyCoders.eu articles on arrays in Java – one package per ar
 |---|---|
 | How to Initialize Arrays in Java ([English](https://www.happycoders.eu/java/initialize-array-java/), [German](https://www.happycoders.eu/de/java/arrays-in-java-initialisieren/)) | `eu.happycoders.initialize` |
 | Array Length in Java ([English](https://www.happycoders.eu/java/array-length-in-java/), [German](https://www.happycoders.eu/de/java/array-laenge-java/)) | `eu.happycoders.length` |
-| 2D Arrays in Java (not yet published; [German](https://www.happycoders.eu/de/java/2d-array-java/), [English](https://www.happycoders.eu/java/2d-array-java/)) | `eu.happycoders.twodimensional` |
+| 2D Arrays in Java ([English](https://www.happycoders.eu/java/2d-array-java/), [German](https://www.happycoders.eu/de/java/2d-array-java/)) | `eu.happycoders.twodimensional` |
 
 ## Running the examples
 
