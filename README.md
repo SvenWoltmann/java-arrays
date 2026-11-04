@@ -88,3 +88,55 @@ java -jar target/benchmarks.jar eu.happycoders.twodimensional.benchmark
 ```
 
 The traversal benchmark takes about four minutes. The results of the articles' runs are in `results/<package>/`, e.g. `results/twodimensional/apple-m5-pro/`. The file `traversal-jdk27-size-4100.log` there is a check run with 4,100 instead of 4,096 columns: at 4,096 columns the elements of one column of the flat array are exactly 16 KB apart and evict each other from the same cache sets, which makes the column-major flat traversal slower than the 2D one; at 4,100 columns it is faster.
+
+
+<!-- happycoders-resources:start -->
+<!-- Generated from happycoders-website-astro/data/github-readme by scripts/content/sync-github-readmes.mjs. Edit there, not here. -->
+
+## <br>Additional Resources
+
+### <br>Java Versions PDF Cheat Sheet
+
+**Stay up-to-date** with the latest Java features with this **free** [PDF Cheat Sheet](https://www.happycoders.eu/java-versions/)!
+
+[<img src="/img/java-versions-cheat-sheet-mockup.png" alt="Java Versions PDF Cheat Sheet Mockup" width="468">](https://www.happycoders.eu/java-versions/)
+
+* Avoid lengthy research with this **concise overview of all Java versions from Java 10 to Java 27**.
+* **Discover the innovative features** of each new Java version, summarized on a single page.
+* **Impress your team** with your up-to-date knowledge of the latest Java version.
+
+👉 [Download the free Java Versions PDF](https://www.happycoders.eu/java-versions/)<br>
+
+_(Hier geht's zur deutschen Version &rarr; [Java-Versionen PDF](https://www.happycoders.eu/de/java-versionen/))_
+
+
+### <br>The Big O Cheat Sheet
+
+With this **free** [1-page PDF cheat sheet](https://www.happycoders.eu/big-o-cheat-sheet/), you'll always have the **7 most important complexity classes** at a glance.
+
+[<img src="/img/big-o-cheat-sheet-mockup.png" alt="Big O PDF Cheat Sheet Mockup" width="304">](https://www.happycoders.eu/big-o-cheat-sheet/)
+
+* **Always choose the most efficient data structures** and thus increase the performance of your applications.
+* **Be prepared for technical interviews** and confidently present your algorithm knowledge.
+* **Become a sought-after problem solver** and be known for systematically tackling complex problems.
+
+👉 [Download the free Big O Cheat Sheet](https://www.happycoders.eu/big-o-cheat-sheet/)<br>
+
+_(Hier geht's zur deutschen Version &rarr; [O-Notation Cheat Sheet](https://www.happycoders.eu/de/o-notation-cheat-sheet/))_
+
+
+### <br>HappyCoders Newsletter
+👉 Want to stay on top of modern Java?
+Sign up for the [HappyCoders newsletter](https://www.happycoders.eu/newsletter/) – Modern Java: new versions & features, performance, and JVM insights – once a month.
+
+_(Hier geht's zur deutschen Version &rarr; [HappyCoders-Newsletter deutsch](https://www.happycoders.eu/de/newsletter/))_
+
+
+### <br>🇩🇪 An alle Java-Entwickler:innen, die durch fundierte Kenntnisse über Datenstrukturen besseren Code schreiben wollen
+
+Trage dich jetzt unverbindlich auf die [Warteliste](https://www.happycoders.eu/de/mastering-data-structures-warteliste/) von „Mastering Data Structures in Java“ ein, und erhalte das beste Angebot!
+
+[<img src="/img/mastering-data-structures-product-mockup.png" alt="Mastering Data Structures Mockup" width="640">](https://www.happycoders.eu/de/mastering-data-structures-warteliste/)
+
+👉 [Zur Warteliste](https://www.happycoders.eu/de/mastering-data-structures-warteliste/)
+<!-- happycoders-resources:end -->
